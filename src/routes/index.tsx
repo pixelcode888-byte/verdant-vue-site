@@ -35,6 +35,7 @@ import prestaEspacesVerts from "@/assets/presta-espaces-verts.jpg";
 import prestaDemoussage from "@/assets/presta-demoussage.jpg";
 
 export const Route = createFileRoute("/")({
+  component: LandingPage,
   head: () => ({
     meta: [
       {
@@ -820,5 +821,3 @@ function LandingPage() {
     </div>
   );
 }
-
-export default LandingPage;
