@@ -8,7 +8,7 @@ import {
   Clock,
   FileCheck,
   FileText,
-  Grass,
+  Sprout,
   Leaf,
   MapPin,
   Phone,
@@ -79,7 +79,7 @@ const prestations = [
     ],
   },
   {
-    icon: Grass,
+    icon: Sprout,
     image: prestaEspacesVerts,
     alt: "Pelouse fraîchement tondue et haies taillées devant une maison — entretien d'espaces verts en Saône-et-Loire",
     title: "Entretien d'espaces verts",
