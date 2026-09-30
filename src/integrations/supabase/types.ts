@@ -14,7 +14,39 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      devis_requests: {
+        Row: {
+          created_at: string
+          id: string
+          message: string | null
+          nom: string
+          prestation: string
+          statut: string
+          telephone: string
+          ville: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          message?: string | null
+          nom: string
+          prestation: string
+          statut?: string
+          telephone: string
+          ville: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          message?: string | null
+          nom?: string
+          prestation?: string
+          statut?: string
+          telephone?: string
+          ville?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
