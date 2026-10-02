@@ -118,7 +118,7 @@ const engagements = [
     icon: FileCheck,
     title: "Devis clair et sans surprise",
     description:
-      "Un devis détaillé, gratuit et transparent. Le prix annoncé est le prix respecté — c'est la règle d'or d'VertAzur Espaces Verts.",
+      "Un devis détaillé, gratuit et transparent. Le prix annoncé est le prix respecté — c'est la règle d'or de VertAzur Espaces Verts.",
   },
   {
     icon: Clock,
@@ -430,7 +430,7 @@ function LandingPage() {
               Un travail soigné, en toute confiance
             </h2>
             <p className="mt-4 text-forest-foreground/80">
-              Ce que chaque client d'VertAzur Espaces Verts peut
+              Ce que chaque client de VertAzur Espaces Verts peut
               attendre, à Saint-Verdain comme à Verdillon.
             </p>
           </div>
