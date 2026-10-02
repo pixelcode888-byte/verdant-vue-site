@@ -40,21 +40,21 @@ export const Route = createFileRoute("/")({
     meta: [
       {
         title:
-          "Paysagiste & Élagage à Lux et Chalon-sur-Saône | Ent Dufresne Services Espaces Verts",
+          "Paysagiste & Élagage à Saint-Verdain et Verdillon | VertAzur Espaces Verts",
       },
       {
         name: "description",
         content:
-          "Ent Dufresne Services Espaces Verts, paysagiste à Lux et Chalon-sur-Saône (71) : élagage, abattage d'arbre, entretien d'espaces verts et démoussage de toiture. Devis gratuit, intervention rapide jusqu'à 19h. Note 5,0/5 sur Google (16 avis).",
+          "VertAzur Espaces Verts, paysagiste à Saint-Verdain et Verdillon : élagage, abattage d'arbre, entretien d'espaces verts et démoussage de toiture. Devis gratuit, intervention rapide jusqu'à 19h. Note 5,0/5 sur Google (27 avis).",
       },
       {
         property: "og:title",
-        content: "Paysagiste & Élagage à Lux et Chalon-sur-Saône — Ent Dufresne",
+        content: "Paysagiste & Élagage à Saint-Verdain et Verdillon — VertAzur",
       },
       {
         property: "og:description",
         content:
-          "Élagage, abattage d'arbre 71, entretien d'espaces verts et démoussage de toiture à Lux et Chalon-sur-Saône. Devis gratuit, intervention rapide jusqu'à 19h. 5,0/5 sur Google (16 avis).",
+          "Élagage, abattage d'arbre, entretien d'espaces verts et démoussage de toiture à Saint-Verdain et Verdillon. Devis gratuit, intervention rapide jusqu'à 19h. 5,0/5 sur Google (27 avis).",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
@@ -62,14 +62,14 @@ export const Route = createFileRoute("/")({
   }),
 });
 
-const PHONE_DISPLAY = "06 52 68 76 53";
-const PHONE_TEL = "tel:+33652687653";
+const PHONE_DISPLAY = "06 19 92 58 51";
+const PHONE_TEL = "tel:+33619925851";
 
 const prestations = [
   {
     icon: TreePine,
     image: prestaElagage,
-    alt: "Élagueur professionnel équipé coupant une branche d'arbre — élagage et abattage d'arbre 71",
+    alt: "Élagueur professionnel équipé coupant une branche d'arbre — élagage et abattage d'arbre",
     title: "Élagage & Abattage d'arbres",
     description:
       "Taille, élagage et abattage d'arbre en toute sécurité, même en milieu urbain ou proche d'habitations.",
@@ -82,10 +82,10 @@ const prestations = [
   {
     icon: Sprout,
     image: prestaEspacesVerts,
-    alt: "Pelouse fraîchement tondue et haies taillées devant une maison — entretien d'espaces verts en Saône-et-Loire",
+    alt: "Pelouse fraîchement tondue et haies taillées devant une maison — entretien d'espaces verts en Val-de-Verdaine",
     title: "Entretien d'espaces verts",
     description:
-      "Un jardin entretenu toute l'année par votre jardinier en Saône-et-Loire, avec des passages réguliers ou ponctuels.",
+      "Un jardin entretenu toute l'année par votre jardinier en Val-de-Verdaine, avec des passages réguliers ou ponctuels.",
     points: [
       "Tonte, bordures et taille de haies",
       "Entretien régulier ou remise en état complète",
@@ -95,7 +95,7 @@ const prestations = [
   {
     icon: Sparkles,
     image: prestaDemoussage,
-    alt: "Nettoyage et démoussage d'une toiture en tuiles rouges — démoussage toiture Lux",
+    alt: "Nettoyage et démoussage d'une toiture en tuiles rouges — démoussage de toiture Saint-Verdain",
     title: "Démoussage de toiture",
     description:
       "Redonnez à votre toit son aspect d'origine et prolongez sa durée de vie, sans risque pour les tuiles.",
@@ -118,56 +118,56 @@ const engagements = [
     icon: FileCheck,
     title: "Devis clair et sans surprise",
     description:
-      "Un devis détaillé, gratuit et transparent. Le prix annoncé est le prix respecté — c'est la règle d'or d'Ent Dufresne Services Espaces Verts.",
+      "Un devis détaillé, gratuit et transparent. Le prix annoncé est le prix respecté — c'est la règle d'or de VertAzur Espaces Verts.",
   },
   {
     icon: Clock,
     title: "Intervention rapide jusqu'à 19h",
     description:
-      "Paysagiste réactif à Lux et Chalon-sur-Saône : nous intervenons tardivement, jusqu'à 19h, partout en Saône-et-Loire.",
+      "Paysagiste réactif à Saint-Verdain et Verdillon : nous intervenons tardivement, jusqu'à 19h, partout en Val-de-Verdaine.",
   },
 ];
 
 const avis = [
   {
     nom: "Marie-Hélène D.",
-    ville: "Lux",
+    ville: "Saint-Verdain",
     texte:
       "Élagage d'un grand chêne dans notre jardin : équipe ponctuelle, travail soigné et chantier impeccable. Le devis a été respecté au centime.",
   },
   {
     nom: "Jean-Luc M.",
-    ville: "Chalon-sur-Saône",
+    ville: "Verdillon",
     texte:
       "Tonte et taille de haies régulières. Toujours dans les délais, toujours souriant. Le meilleur jardinier que j'ai eu depuis des années.",
   },
   {
     nom: "Sylvie R.",
-    ville: "Saint-Marcel",
+    ville: "Valmont-sur-Verde",
     texte:
       "Démoussage complet de notre toiture : résultat bluffant, tuiles comme neuves. Devis très clair et intervention jusqu'en soirée, très pratique.",
   },
   {
     nom: "Philippe B.",
-    ville: "Givry",
+    ville: "Rosières-du-Val",
     texte:
       "Abattage d'un pin trop proche de la maison : matériel pro, sécurité irréprochable et évacuation totale. Je recommande sans hésiter.",
   },
 ];
 
 const zoneVilles = [
-  "Lux",
-  "Chalon-sur-Saône",
-  "Saint-Marcel",
-  "Saint-Rémy",
-  "Épervans",
-  "Chagny",
-  "Givry",
-  "Buxy",
-  "Sennecey-le-Grand",
-  "Montchanin",
-  "Montceau-les-Mines",
-  "Verdun-sur-le-Doubs",
+  "Saint-Verdain",
+  "Verdillon",
+  "Petit-Verdain",
+  "Valmont-sur-Verde",
+  "Rosières-du-Val",
+  "La Chaumière-les-Bois",
+  "Varennes-la-Verte",
+  "Montclair",
+  "Beaupré-le-Moulin",
+  "Châtel-Vert",
+  "Les Jonquilles",
+  "Fontenoy-sur-Verde",
 ];
 
 const prestationsOptions = [
@@ -228,10 +228,10 @@ function LandingPage() {
             </span>
             <span className="min-w-0">
               <span className="block truncate font-display text-sm font-bold leading-tight sm:text-base">
-                Ent Dufresne Services
+                VertAzur Espaces Verts
               </span>
               <span className="block truncate text-xs font-medium text-muted-foreground">
-                Espaces Verts · Paysagiste 71
+                Espaces Verts · Paysagiste
               </span>
             </span>
           </a>
@@ -277,21 +277,21 @@ function LandingPage() {
             <div className="inline-flex items-center gap-2 rounded-full border border-border bg-card px-3 py-1.5 text-sm font-medium shadow-sm">
               <Stars />
               <span className="text-foreground/90">
-                5,0/5 sur Google — 16 avis
+                5,0/5 sur Google — 27 avis
               </span>
             </div>
 
             <h1 className="mt-6 text-balance font-display text-4xl font-extrabold leading-[1.1] tracking-tight sm:text-5xl lg:text-[3.4rem]">
               Paysagiste &amp; Élagage à{" "}
-              <span className="text-primary">Lux</span> et{" "}
-              <span className="text-primary">Chalon-sur-Saône</span>
+              <span className="text-primary">Saint-Verdain</span> et{" "}
+              <span className="text-primary">Verdillon</span>
             </h1>
 
             <p className="mt-5 max-w-xl text-lg leading-relaxed text-muted-foreground">
-              Ent Dufresne Services Espaces Verts, votre entreprise locale de
-              paysagisme en Saône-et-Loire. Une équipe <strong className="font-semibold text-foreground">réactive</strong>,
+              VertAzur Espaces Verts, votre entreprise locale de
+              paysagisme en Val-de-Verdaine. Une équipe <strong className="font-semibold text-foreground">réactive</strong>,
               un <strong className="font-semibold text-foreground">devis toujours respecté</strong> et la
-              satisfaction de <strong className="font-semibold text-foreground">16 avis Google à 5,0/5</strong>.
+              satisfaction de <strong className="font-semibold text-foreground">27 avis Google à 5,0/5</strong>.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:items-center">
@@ -333,7 +333,7 @@ function LandingPage() {
             <div className="overflow-hidden rounded-3xl border border-border shadow-2xl shadow-forest/20">
               <img
                 src={heroImage}
-                alt="Élagueur professionnel avec harnais et tronçonneuse élaguant un arbre dans un jardin de Bourgogne — Paysagiste à Lux et Chalon-sur-Saône"
+                alt="Élagueur professionnel avec harnais et tronçonneuse élaguant un arbre dans un jardin de Val-de-Verdaine — Paysagiste à Saint-Verdain et Verdillon"
                 width={1920}
                 height={1088}
                 className="h-auto w-full object-cover"
@@ -346,7 +346,7 @@ function LandingPage() {
               </span>
               <div>
                 <p className="text-sm font-bold leading-tight">Ouvert jusqu'à 19h</p>
-                <p className="text-xs text-muted-foreground">Interventions en Saône-et-Loire</p>
+                <p className="text-xs text-muted-foreground">Interventions en Val-de-Verdaine</p>
               </div>
             </div>
           </div>
@@ -364,8 +364,8 @@ function LandingPage() {
               Des services complets pour votre jardin et votre toiture
             </h2>
             <p className="mt-4 text-muted-foreground">
-              De l'élagage à Lux au démoussage de toiture, en passant par
-              l'entretien régulier de vos espaces verts en Saône-et-Loire.
+              De l'élagage à Saint-Verdain au démoussage de toiture, en passant par
+              l'entretien régulier de vos espaces verts en Val-de-Verdaine.
             </p>
           </div>
 
@@ -430,8 +430,8 @@ function LandingPage() {
               Un travail soigné, en toute confiance
             </h2>
             <p className="mt-4 text-forest-foreground/80">
-              Ce que chaque client d'Ent Dufresne Services Espaces Verts peut
-              attendre, à Lux comme à Chalon-sur-Saône.
+              Ce que chaque client de VertAzur Espaces Verts peut
+              attendre, à Saint-Verdain comme à Verdillon.
             </p>
           </div>
 
@@ -477,7 +477,7 @@ function LandingPage() {
                 </div>
               </div>
               <p className="mt-4 text-sm font-medium text-forest-foreground/85">
-                Note parfaite sur Google, fondée sur 16 avis clients vérifiés.
+                Note parfaite sur Google, fondée sur 27 avis clients vérifiés.
               </p>
               <div className="mt-6 border-t border-white/10 pt-6">
                 <p className="font-display text-3xl font-extrabold text-primary-glow">100 %</p>
@@ -492,7 +492,7 @@ function LandingPage() {
                 Avis clients
               </p>
               <h2 className="mt-3 text-balance font-display text-3xl font-extrabold tracking-tight sm:text-4xl">
-                Ils nous font confiance autour de Lux et Chalon-sur-Saône
+                Ils nous font confiance autour de Saint-Verdain et Verdillon
               </h2>
               <div className="mt-8 grid grid-cols-1 gap-5 sm:grid-cols-2">
                 {avis.map((a) => (
@@ -528,8 +528,8 @@ function LandingPage() {
             </h2>
             <p className="mt-4 text-muted-foreground">
               Réponse rapide, devis gratuit et sans engagement. Nous
-              intervenons dans un rayon de 30 km autour de Lux et
-              Chalon-sur-Saône.
+              intervenons dans un rayon de 30 km autour de Saint-Verdain et
+              Verdillon.
             </p>
           </div>
 
@@ -538,7 +538,7 @@ function LandingPage() {
             <div className="flex flex-col gap-6">
               <div className="rounded-3xl border border-border bg-card p-8 shadow-sm">
                 <h3 className="font-display text-xl font-bold">
-                  Ent Dufresne Services Espaces Verts
+                  VertAzur Espaces Verts
                 </h3>
                 <ul className="mt-5 space-y-4 text-sm">
                   <li className="flex items-start gap-3">
@@ -546,7 +546,7 @@ function LandingPage() {
                     <span>
                       <span className="font-semibold">Adresse :</span>
                       <br />
-                      Impasse du Bourria, 71100 Lux
+                      12 rue des Tilleuls, 00000 Saint-Verdain
                     </span>
                   </li>
                   <li className="flex items-start gap-3">
@@ -573,8 +573,8 @@ function LandingPage() {
                   Zone d'intervention
                 </h3>
                 <p className="mt-3 text-sm leading-relaxed text-forest-foreground/85">
-                  Un rayon de 30 km autour de Lux et Chalon-sur-Saône, partout
-                  en Saône-et-Loire, avec des interventions possibles jusqu'à
+                  Un rayon de 30 km autour de Saint-Verdain et Verdillon, partout
+                  en Val-de-Verdaine, avec des interventions possibles jusqu'à
                   19h.
                 </p>
                 <ul className="mt-5 flex flex-wrap gap-2">
@@ -657,7 +657,7 @@ function LandingPage() {
                       name="ville"
                       required
                       minLength={2}
-                      placeholder="Lux, Chalon-sur-Saône…"
+                      placeholder="Saint-Verdain, Verdillon…"
                       className="flex h-11 w-full rounded-lg border border-input bg-background px-3 py-2 text-sm shadow-sm transition-colors placeholder:text-muted-foreground focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring"
                     />
                   </div>
@@ -733,16 +733,16 @@ function LandingPage() {
                 </span>
                 <div>
                   <p className="font-display font-bold leading-tight">
-                    Ent Dufresne Services
+                    VertAzur Espaces Verts
                   </p>
                   <p className="text-xs text-forest-foreground/70">
-                    Espaces Verts · Paysagiste Saône-et-Loire
+                    Espaces Verts · Paysagiste Val-de-Verdaine
                   </p>
                 </div>
               </div>
               <p className="mt-4 text-sm leading-relaxed text-forest-foreground/75">
-                Paysagiste, élagage et abattage d'arbre 71, entretien d'espaces
-                verts et démoussage de toiture à Lux et Chalon-sur-Saône.
+                Paysagiste, élagage et abattage d'arbre, entretien d'espaces
+                verts et démoussage de toiture à Saint-Verdain et Verdillon.
               </p>
             </div>
 
@@ -753,7 +753,7 @@ function LandingPage() {
               <ul className="mt-4 space-y-3 text-sm text-forest-foreground/80">
                 <li className="flex items-start gap-2.5">
                   <MapPin className="mt-0.5 size-4 shrink-0 text-primary-glow" />
-                  Impasse du Bourria, 71100 Lux
+                  12 rue des Tilleuls, 00000 Saint-Verdain
                 </li>
                 <li className="flex items-start gap-2.5">
                   <Phone className="mt-0.5 size-4 shrink-0 text-primary-glow" />
@@ -799,9 +799,9 @@ function LandingPage() {
 
           <div className="mt-12 border-t border-white/10 pt-6">
             <p className="text-xs leading-relaxed text-forest-foreground/60">
-              © {new Date().getFullYear()} Ent Dufresne Services Espaces Verts —
-              Paysagiste à Lux (71100), élagage Chalon-sur-Saône, jardinier
-              Saône-et-Loire. Entreprise assurée en responsabilité civile
+              © {new Date().getFullYear()} VertAzur Espaces Verts —
+              Paysagiste à Saint-Verdain (00000), élagage Verdillon, jardinier
+              Val-de-Verdaine. Entreprise assurée en responsabilité civile
               professionnelle. Mentions légales disponibles sur simple demande.
             </p>
           </div>

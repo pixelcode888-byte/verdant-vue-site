@@ -77,17 +77,17 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
     meta: [
       { charSet: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { title: "Ent Dufresne Services Espaces Verts — Paysagiste à Lux (71)" },
+      { title: "VertAzur Espaces Verts — Paysagiste & Élagage à Saint-Verdain" },
       {
         name: "description",
         content:
-          "Paysagiste & élagage à Lux et Chalon-sur-Saône : devis gratuit, intervention rapide jusqu'à 19h, note 5,0/5 sur Google.",
+          "Paysagiste & élagage à Saint-Verdain et Verdillon : devis gratuit, intervention rapide jusqu'à 19h, note 5,0/5 sur Google.",
       },
-      { property: "og:title", content: "Ent Dufresne Services Espaces Verts" },
+      { property: "og:title", content: "VertAzur Espaces Verts" },
       {
         property: "og:description",
         content:
-          "Paysagiste & élagage à Lux et Chalon-sur-Saône. Devis gratuit, intervention rapide jusqu'à 19h.",
+          "Paysagiste & élagage à Saint-Verdain et Verdillon. Devis gratuit, intervention rapide jusqu'à 19h.",
       },
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
