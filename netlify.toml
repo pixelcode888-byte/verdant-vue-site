@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = ".output/public"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# Nitro (preset netlify) génère les fonctions serverless dans .netlify/functions-internal
+[functions]
+  directory = ".netlify/functions-internal"
