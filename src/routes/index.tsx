@@ -143,13 +143,13 @@ const avis = [
   },
   {
     nom: "Sylvie R.",
-    ville: "Saint-Marcel",
+    ville: "Valmont-sur-Verde",
     texte:
       "Démoussage complet de notre toiture : résultat bluffant, tuiles comme neuves. Devis très clair et intervention jusqu'en soirée, très pratique.",
   },
   {
     nom: "Philippe B.",
-    ville: "Givry",
+    ville: "Rosières-du-Val",
     texte:
       "Abattage d'un pin trop proche de la maison : matériel pro, sécurité irréprochable et évacuation totale. Je recommande sans hésiter.",
   },
@@ -158,16 +158,16 @@ const avis = [
 const zoneVilles = [
   "Saint-Verdain",
   "Verdillon",
-  "Saint-Marcel",
-  "Saint-Rémy",
-  "Épervans",
-  "Chagny",
-  "Givry",
-  "Buxy",
-  "Sennecey-le-Grand",
-  "Montchanin",
-  "Montceau-les-Mines",
-  "Verdun-sur-le-Doubs",
+  "Petit-Verdain",
+  "Valmont-sur-Verde",
+  "Rosières-du-Val",
+  "La Chaumière-les-Bois",
+  "Varennes-la-Verte",
+  "Montclair",
+  "Beaupré-le-Moulin",
+  "Châtel-Vert",
+  "Les Jonquilles",
+  "Fontenoy-sur-Verde",
 ];
 
 const prestationsOptions = [
